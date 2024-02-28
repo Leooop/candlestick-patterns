@@ -500,6 +500,16 @@ function bearishKicker(dataArray) {
   return findPattern(dataArray, isBearishKicker);
 }
 
+module.exports.bodyLen = bodyLen;
+module.exports.wickLen = wickLen;
+module.exports.tailLen = tailLen;
+module.exports.bodyEnds = bodyEnds;
+module.exports.isBullish = isBullish;
+module.exports.isBearish = isBearish;
+module.exports.isEngulfed = isEngulfed;
+module.exports.hasGapUp = hasGapUp;
+module.exports.hasGapDown = hasGapDown;
+
 module.exports.isHammer = isHammer;
 module.exports.isInvertedHammer = isInvertedHammer;
 module.exports.isBullishHammer = isBullishHammer;
